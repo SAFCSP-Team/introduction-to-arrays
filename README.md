@@ -1,4 +1,4 @@
-# Array with primitive data type
+# Array With Primitive Data Type
 ### Objective
 The project's main focus is understanding arrays, declaring them, accessing their elements using indexes, and performing operations on them.
 
