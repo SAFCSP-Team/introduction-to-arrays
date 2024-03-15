@@ -1,26 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-      public class Main {
-    public static void main(String [] args){
-        int [][][] nums = {
-            {
-                {3, 5, 8}, {3, 2, 1}
-            }, 
+      int [] nums = new int [10];
+      nums [0] = 1;
+      nums [1] = 2;
+      nums [2] = 3;
+      nums [3] = 8;
+      nums [4] = 0;
+      nums [5] = 2;
+      nums [6] = 3;
+      nums [7] = 4;
+      nums [8] = 2;
+      nums [9] = 9;
 
-            {
-                {5, 2, 4}, {6, 2, 7}
-            }, 
+     
 
-            {
-                {7, 9, 9}, {8, 2, 1}
-            }
-        }; 
-        int [][] nums2 = {{7, 8, 9}, {4, 5, 6}};   
-        System.out.println(nums2[1][1]);
-    } 
-}
-
-    
+      for (int i = 0; i < nums.length; i++){
+        System.out.println(nums [i]);
+      }
 
     }
 
