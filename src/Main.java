@@ -17,7 +17,12 @@ public class Main {
       for (int i = 0; i < nums.length; i++){
         System.out.println(nums [i]);
       }
+      nums [1] = 5;
+
+      for (int i = 0; i < nums.length; i++){
+        System.out.println(nums [i]);
 
     }
 
+}
 }
